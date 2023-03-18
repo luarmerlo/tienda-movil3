@@ -1,0 +1,705 @@
+/*------------------------------------*\
+   HERO CSS
+\*------------------------------------*/
+
+
+/* IPHONE 14 */
+
+/* SCREENS */
+
+.tile-iphone-14 .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/hero_iphone_14__de41900yuggi_large.jpg); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .tile-iphone-14 .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/hero_iphone_14__de41900yuggi_large_2x.jpg); }
+}
+@media only screen and (max-width:1068px) {
+  .tile-iphone-14 .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/hero_iphone_14__de41900yuggi_medium.jpg); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .tile-iphone-14 .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/hero_iphone_14__de41900yuggi_medium_2x.jpg); }
+}
+@media only screen and (max-width:734px) {
+  .tile-iphone-14 .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/hero_iphone_14__de41900yuggi_small.jpg); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .tile-iphone-14 .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/hero_iphone_14__de41900yuggi_small_2x.jpg); }
+}
+.tile-iphone-14.announce .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/announce/hero_iphone_14__de41900yuggi_large.jpg); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .tile-iphone-14.announce .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/announce/hero_iphone_14__de41900yuggi_large_2x.jpg); }
+}
+@media only screen and (max-width:1068px) {
+  .tile-iphone-14.announce .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/announce/hero_iphone_14__de41900yuggi_medium.jpg); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .tile-iphone-14.announce .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/announce/hero_iphone_14__de41900yuggi_medium_2x.jpg); }
+}
+@media only screen and (max-width:734px) {
+  .tile-iphone-14.announce .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/announce/hero_iphone_14__de41900yuggi_small.jpg); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .tile-iphone-14.announce .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/announce/hero_iphone_14__de41900yuggi_small_2x.jpg); }
+}
+
+/* LOCAL FIXES */
+
+/* END IPHONE 14 */
+
+
+/* IPHONE 14 PRO */
+
+/* SCREENS */
+.tile-iphone-14-pro .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/hero_iphone_14_pro__e8bufymdlseq_large.jpg); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .tile-iphone-14-pro .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/hero_iphone_14_pro__e8bufymdlseq_large_2x.jpg); }
+}
+@media only screen and (max-width:1068px) {
+  .tile-iphone-14-pro .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/hero_iphone_14_pro__e8bufymdlseq_medium.jpg); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .tile-iphone-14-pro .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/hero_iphone_14_pro__e8bufymdlseq_medium_2x.jpg); }
+}
+@media only screen and (max-width:734px) {
+  .tile-iphone-14-pro .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/hero_iphone_14_pro__e8bufymdlseq_small.jpg); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .tile-iphone-14-pro .hero-bgimage { background-image:url(/es/iphone/home/images/overview/hero/hero_iphone_14_pro__e8bufymdlseq_small_2x.jpg); }
+}
+/* LOCAL FIXES */
+
+@media only screen and (max-width: 734px) {
+	.section-hero .copy-wrapper .hero-copy-pricing {
+		max-width: 220px;
+	}
+}
+/* END IPHONE 14 PRO */
+
+
+/* IPHONE SE */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+/* END IPHONE SE */
+
+
+/*------------------------------------*\
+   END HERO CSS
+\*------------------------------------*/
+
+/*------------------------------------*\
+   COMPARE CSS
+\*------------------------------------*/
+
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+
+
+/*------------------------------------*\
+   END COMPARE CSS
+\*------------------------------------*/
+
+/*------------------------------------*\
+   VALENTINES CSS
+\*------------------------------------*/
+
+
+/* SCREENS */
+
+
+.vday-2023-image { background-image:url(/euro/iphone/home/j/screens_alt/images/overview/vday-2023/val23_iphone_familypage__io3oi0npl8yi_large.jpg); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .vday-2023-image { background-image:url(/euro/iphone/home/j/screens_alt/images/overview/vday-2023/val23_iphone_familypage__io3oi0npl8yi_large_2x.jpg); }
+}
+@media only screen and (max-width:1068px) {
+  .vday-2023-image { background-image:url(/euro/iphone/home/j/screens_alt/images/overview/vday-2023/val23_iphone_familypage__io3oi0npl8yi_medium.jpg); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .vday-2023-image { background-image:url(/euro/iphone/home/j/screens_alt/images/overview/vday-2023/val23_iphone_familypage__io3oi0npl8yi_medium_2x.jpg); }
+}
+@media only screen and (max-width:734px) {
+  .vday-2023-image { background-image:url(/euro/iphone/home/j/screens_alt/images/overview/vday-2023/val23_iphone_familypage__io3oi0npl8yi_small.jpg); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .vday-2023-image { background-image:url(/euro/iphone/home/j/screens_alt/images/overview/vday-2023/val23_iphone_familypage__io3oi0npl8yi_small_2x.jpg); }
+}
+/* LOCAL FIXES */
+
+
+/*------------------------------------*\
+   END VALENTINES CSS
+\*------------------------------------*/
+
+/*------------------------------------*\
+   RETAIL
+\*------------------------------------*/
+
+
+/* IOS 16 */
+
+/* SCREENS */
+.tile-ios-16 { background-image:url("/es/iphone/home/images/overview/why-iphone/ios16__b66zg2a3322q_large.jpg"); }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .tile-ios-16 { background-image:url("/es/iphone/home/images/overview/why-iphone/ios16__b66zg2a3322q_large_2x.jpg"); }
+}
+@media only screen and (max-width: 1068px) {
+  .tile-ios-16 { background-image:url("/es/iphone/home/images/overview/why-iphone/ios16__b66zg2a3322q_medium.jpg"); }
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .tile-ios-16 { background-image:url("/es/iphone/home/images/overview/why-iphone/ios16__b66zg2a3322q_medium_2x.jpg"); }
+}
+@media only screen and (max-width: 734px) {
+  .tile-ios-16 { background-image:url("/es/iphone/home/images/overview/why-iphone/ios16__b66zg2a3322q_small.jpg"); }
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .tile-ios-16 { background-image:url("/es/iphone/home/images/overview/why-iphone/ios16__b66zg2a3322q_small_2x.jpg"); }
+}
+
+/* LOCAL FIXES */
+
+/* END IOS 16 BUY */
+
+
+
+
+
+/*------------------------------------*\
+   END RETAIL CSS
+\*------------------------------------*/
+
+/*------------------------------------*\
+   ACCESSORIES CSS
+\*------------------------------------*/
+
+
+/* MAGSAFE */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+/* END MAGSAFE */
+
+
+
+
+
+/* AIRTAG */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+/* END AIRTAG */
+
+
+
+
+
+
+
+/* AIRPODS ENGRAVING */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+
+@media only screen and (max-width: 1068px) {
+  .section-accessories .flex-tile-wrapper.airpods-tile {
+    max-height: 431px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .section-accessories .flex-tile-wrapper.airpods-tile {
+    max-height: 443px;
+  }
+}
+
+
+.section-accessories .flex-tile-wrapper.airpods-tile .content-wrapper.pro-update-fall-22 .copy-wrapper {
+    width: 315px;
+}
+@media only screen and (max-width: 1068px) {
+    .section-accessories .flex-tile-wrapper.airpods-tile .content-wrapper.pro-update-fall-22 .copy-wrapper {
+        width: 240px;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .section-accessories .flex-tile-wrapper.airpods-tile .content-wrapper.pro-update-fall-22 .copy-wrapper {
+        width: 256px;
+    }
+}
+
+/* END AIRPODS ENGRAVING */
+
+
+/*------------------------------------*\
+   END ACCESSORIES CSS
+\*------------------------------------*/
+
+/*------------------------------------*\
+   BUYSTRIP CSS
+\*------------------------------------*/
+
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+.section-buystrip .buystrip-wrapper .flex-wrapper .buystrip-tile:nth-of-type(1) .tile-copy {
+  max-width: 75%;
+}
+
+/*------------------------------------*\
+   END BUYSTRIP CSS
+\*------------------------------------*/
+
+/*------------------------------------*\
+   WHY IPHONE CSS
+\*------------------------------------*/
+
+
+
+
+
+
+
+
+/* SWITCH TO IPHONE */
+
+/* SCREENS */
+
+.tile-switch-to-iphone .image-why-switch { background-image:url(/es/iphone/home/images/overview/why-iphone/switching_to_iphone__e3oz9r418awm_large.jpg); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .tile-switch-to-iphone .image-why-switch { background-image:url(/es/iphone/home/images/overview/why-iphone/switching_to_iphone__e3oz9r418awm_large_2x.jpg); }
+}
+@media only screen and (max-width:1068px) {
+  .tile-switch-to-iphone .image-why-switch { background-image:url(/es/iphone/home/images/overview/why-iphone/switching_to_iphone__e3oz9r418awm_medium.jpg); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .tile-switch-to-iphone .image-why-switch { background-image:url(/es/iphone/home/images/overview/why-iphone/switching_to_iphone__e3oz9r418awm_medium_2x.jpg); }
+}
+@media only screen and (max-width:734px) {
+  .tile-switch-to-iphone .image-why-switch { background-image:url(/es/iphone/home/images/overview/why-iphone/switching_to_iphone__e3oz9r418awm_small.jpg); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .tile-switch-to-iphone .image-why-switch { background-image:url(/es/iphone/home/images/overview/why-iphone/switching_to_iphone__e3oz9r418awm_small_2x.jpg); }
+}
+
+/* LOCAL FIXES */
+
+.tile-switch-to-iphone .tile-headline {
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .tile-switch-to-iphone .tile-headline {
+        margin-top: 37px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .tile-switch-to-iphone .tile-headline {
+        margin-top: 54px;
+    }
+}
+
+/* END SWITCH TO IPHONE */
+
+
+
+
+
+
+/* PRIVACY */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+.privacy-update .tile-headline {
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .privacy-update .tile-headline {
+      margin-top: 37px;
+  }
+}
+@media only screen and (max-width: 734px) {
+  .privacy-update .tile-headline {
+      margin-top: 54px;
+  }
+}
+
+.privacy-update .tile-cta:nth-of-type(1){
+  	margin-top: 16px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.privacy-update .tile-cta:nth-of-type(1){
+  		margin-top: 8px;
+	}
+}
+.privacy-update .tile-cta:nth-of-type(2){
+  	margin-top: 0px;
+}
+
+
+/* END PRIVACY */
+
+
+/*------------------------------------*\
+   END WHY IPHONE CSS
+\*------------------------------------*/
+
+/*------------------------------------*\
+   MORE IPHONE CSS
+\*------------------------------------*/
+
+.section-more-iphone .has-footnote .icon-external:after {
+	padding-left: 0.3em;
+}
+
+
+.section-more-iphone .tile-cta, .section-more-iphone .free-cta {
+  margin-top: .4em;
+}
+
+
+
+/* APPLE ONE */
+
+/* SCREENS */
+.apple-one.geo-alt .tile-chiclets {
+	width: 542px;
+	height: 329px;
+	background-size: 542px 329px;
+	background-repeat: no-repeat;
+	background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/bundle__d7tp40dgdyuu_large.jpg");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+	.apple-one.geo-alt .tile-chiclets {
+		background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/bundle__d7tp40dgdyuu_large_2x.jpg");
+	}
+}
+@media only screen and (max-width: 1068px) {
+	.apple-one.geo-alt .tile-chiclets {
+		width: 313px;
+		height: 191px;
+		background-size: 313px 191px;
+		background-repeat: no-repeat;
+		background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/bundle__d7tp40dgdyuu_medium.jpg");
+	}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.apple-one.geo-alt .tile-chiclets {
+		background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/bundle__d7tp40dgdyuu_medium_2x.jpg");
+	}
+}
+@media only screen and (max-width: 734px) {
+	.apple-one.geo-alt .tile-chiclets {
+		width: 297px;
+		height: 181px;
+		background-size: 297px 181px;
+		background-repeat: no-repeat;
+		background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/bundle__d7tp40dgdyuu_small.jpg");
+	}
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.apple-one.geo-alt .tile-chiclets {
+		background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/bundle__d7tp40dgdyuu_small_2x.jpg");
+	}
+}
+/* LOCAL FIXES */
+
+@media only screen and (max-width: 1068px) {
+	.apple-one .copy-wrapper {
+		margin-left: -30px;
+	}
+}
+@media only screen and (max-width: 734px) {
+	.apple-one .copy-wrapper {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.apple-one.geo-alt .tile-cta-wrapper.links-inline li:first-child {
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 7px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.apple-one.geo-alt .tile-cta-wrapper.links-inline li:last-child {
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 7px;
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.apple-one.geo-alt .copy-wrapper .links-inline li:last-child {
+		margin-top: 0px;
+	}
+}
+
+
+
+/* END APPLE ONE */
+
+
+
+
+
+
+/* TV PLUS */
+
+/* SCREENS */
+
+
+
+/* LOCAL FIXES */
+
+.tv-plus-river {
+    min-height: 640px;
+}
+@media only screen and (max-width: 1068px) {
+	.tv-plus-river {
+		min-height: 444px;
+	}
+}
+
+.section-more-iphone .tile-tv-plus-river .trial-cta .icon-external:after {
+	padding-left: .3em;
+}
+
+/* END TV PLUS */
+
+
+
+
+
+
+
+/* APPLE MUSIC */
+
+/* SCREENS */
+
+
+
+
+
+
+
+/* LOCAL FIXES */
+
+
+
+
+
+
+
+
+
+.tile-apple-music .tile-copy {
+    margin-top:15px
+}
+
+@media only screen and (max-width: 734px) {
+    .tile-apple-music .tile-copy {
+        margin-top:19px
+    }
+}
+
+
+
+
+/* END APPLE MUSIC */
+
+
+
+
+
+
+
+/* APPLE ARCADE */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+.tile-apple-arcade .trial-cta .icon-external::after {
+    padding-left: 0.3em;
+}
+
+@media only screen and (max-width: 1068px) {
+    .tile-apple-arcade .content-wrapper {
+        min-height: 450px;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .tile-apple-arcade .content-wrapper {
+        min-height: 490px;
+    }
+}
+
+/* END APPLE ARCADE */
+
+
+
+
+
+
+/* FITNESS PLUS */
+
+/* SCREENS */
+
+.tile-fitness .image-fitness-plus { background-image:url(/es/iphone/home/images/overview/more-iphone/fitness_plus__e7jek86csoqe_large.jpg); }
+@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:144dpi),only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx) {
+  .tile-fitness .image-fitness-plus { background-image:url(/es/iphone/home/images/overview/more-iphone/fitness_plus__e7jek86csoqe_large_2x.jpg); }
+}
+@media only screen and (max-width:1068px) {
+  .tile-fitness .image-fitness-plus { background-image:url(/es/iphone/home/images/overview/more-iphone/fitness_plus__e7jek86csoqe_medium.jpg); }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:1068px)and (min-resolution:1.5dppx),only screen and (max-width:1068px)and (min-resolution:144dpi) {
+  .tile-fitness .image-fitness-plus { background-image:url(/es/iphone/home/images/overview/more-iphone/fitness_plus__e7jek86csoqe_medium_2x.jpg); }
+}
+@media only screen and (max-width:734px) {
+  .tile-fitness .image-fitness-plus { background-image:url(/es/iphone/home/images/overview/more-iphone/fitness_plus__e7jek86csoqe_small.jpg); }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),only screen and (max-width:734px)and (min-resolution:1.5dppx),only screen and (max-width:734px)and (min-resolution:144dpi) {
+  .tile-fitness .image-fitness-plus { background-image:url(/es/iphone/home/images/overview/more-iphone/fitness_plus__e7jek86csoqe_small_2x.jpg); }
+}
+
+/* LOCAL FIXES */
+
+.tile-fitness.geo-alt .tile-headline-image {
+	margin-top: 68px;
+}
+
+@media only screen and (max-width: 1068px) {
+.tile-fitness.geo-alt .tile-headline-image {
+	margin-top: 45px;
+	}
+}
+
+
+.tile-fitness .tile-copy {
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .tile-fitness .tile-copy {
+        margin-top:13px
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .tile-fitness .tile-copy {
+        margin-top: 20px;
+    }
+}
+
+
+/* END FITNESS PLUS */
+
+
+
+
+/* APPLE GIFT CARD */
+
+/* SCREENS */
+
+.tile-gift-card.full-width-tile-wrapper .image-giftcard {
+    width: 899px;
+    height: 319px;
+    background-size: 899px 319px;
+    background-repeat: no-repeat;
+    background-image: url("/es/iphone/home/images/overview/gift_card/giftcard_tile__dartrujkircm_large.jpg");
+    margin-left: -180px;
+    margin-top: 78px;
+    margin-bottom:78px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .tile-gift-card.full-width-tile-wrapper .image-giftcard {
+        background-image: url("/es/iphone/home/images/overview/gift_card/giftcard_tile__dartrujkircm_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .tile-gift-card.full-width-tile-wrapper .image-giftcard {
+        width: 469px;
+        height: 168px;
+        background-size: 469px 168px;
+        background-repeat: no-repeat;
+        background-image: url("/es/iphone/home/images/overview/gift_card/giftcard_tile__dartrujkircm_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .tile-gift-card.full-width-tile-wrapper .image-giftcard {
+        background-image: url("/es/iphone/home/images/overview/gift_card/giftcard_tile__dartrujkircm_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .tile-gift-card.full-width-tile-wrapper .image-giftcard {
+        width: 694px;
+        height: 247px;
+        background-size: 694px 247px;
+        background-repeat: no-repeat;
+        background-image: url("/es/iphone/home/images/overview/gift_card/giftcard_tile__dartrujkircm_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .tile-gift-card.full-width-tile-wrapper .image-giftcard {
+        background-image: url("/es/iphone/home/images/overview/gift_card/giftcard_tile__dartrujkircm_small_2x.jpg")
+    }
+}
+
+
+/* LOCAL FIXES */
+
+@media only screen and (max-width: 1068px) {
+    .tile-gift-card.full-width-tile-wrapper .image-giftcard {
+        left: 56%;
+        margin-left: -274.5px;
+        position: relative;
+        margin-top: 11px;
+        margin-bottom:65px;
+    }
+}
+@media only screen and (max-width: 734px) {
+    .tile-gift-card.full-width-tile-wrapper .image-giftcard {
+        left: 50%;
+        margin-left: -347px;
+        position: relative;
+        margin-top: 39px;
+        margin-bottom:56px;
+    }
+}
+
+/* END APPLE GIFT CARD  */
+
+
+/*------------------------------------*\
+   END MORE IPHONE CSS
+\*------------------------------------*/
+
+#ac-globalfooter .underline {
+  text-decoration: underline;
+}
+
+#ac-globalfooter .bold {
+  font-weight: bold;
+}

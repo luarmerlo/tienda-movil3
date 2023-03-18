@@ -1,0 +1,212 @@
+/* MUSIC */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+.tile-apple-music .tile-headline-image {
+  width: 156px;
+  height: 39px;
+  background-size: 156px 39px;
+  background-repeat: no-repeat;
+  background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/music-tile/apple_music_logo__dhg7mda4hhoy_large.png");
+  margin: 0 auto;
+  margin-top: 70px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .tile-apple-music .tile-headline-image {
+    background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/music-tile/apple_music_logo__dhg7mda4hhoy_large_2x.png")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .tile-apple-music .tile-headline-image {
+    width: 100px;
+    height: 26px;
+    background-size: 100px 26px;
+    background-repeat: no-repeat;
+    background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/music-tile/apple_music_logo__dhg7mda4hhoy_medium.png")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .tile-apple-music .tile-headline-image {
+    background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/music-tile/apple_music_logo__dhg7mda4hhoy_medium_2x.png")
+  }
+}
+
+.tile-apple-music .tile-headline-image {
+  width: 156px;
+  height: 39px;
+  background-size: 156px 39px;
+  background-repeat: no-repeat;
+  background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/music-tile/apple_music_logo__dhg7mda4hhoy_large.png");
+  margin: 0 auto;
+  margin-top: 70px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .tile-apple-music .tile-headline-image {
+    background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/music-tile/apple_music_logo__dhg7mda4hhoy_large_2x.png")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .tile-apple-music .tile-headline-image {
+    width: 100px;
+    height: 26px;
+    background-size: 100px 26px;
+    background-repeat: no-repeat;
+    background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/music-tile/apple_music_logo__dhg7mda4hhoy_medium.png")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .tile-apple-music .tile-headline-image {
+    background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/music-tile/apple_music_logo__dhg7mda4hhoy_medium_2x.png")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .tile-apple-music .tile-headline-image {
+    margin-top: 44px
+  }
+}
+
+.tile-apple-music.availability .tile-headline-image {
+  margin-top: 68px
+}
+
+@media only screen and (max-width: 1068px) {
+  .tile-apple-music.availability .tile-headline-image {
+    margin-top: 44px
+  }
+}
+
+.tile-apple-music .tile-copy {
+  margin-top: 15px
+}
+
+@media only screen and (max-width: 734px) {
+  .tile-apple-music .tile-copy {
+    margin-top: 19px
+  }
+}
+
+
+
+.tile-apple-music .cta-color {
+  color: #06c
+}
+
+.tile-apple-music .content-wrapper {
+  overflow: hidden;
+  background-color: #fff;
+  min-height: 600px
+}
+
+@media only screen and (max-width: 1068px) {
+  .tile-apple-music .content-wrapper {
+    min-height: 350px
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .tile-apple-music .content-wrapper {
+    min-height: 490px
+  }
+}
+
+.tile-apple-music .image-wrapper {
+  width: 554px;
+  height: 384px;
+  width: 100%;
+  position: relative;
+  flex: none
+}
+
+@media only screen and (max-width: 1068px) {
+  .tile-apple-music .image-wrapper {
+    width: 295px;
+    height: 204px
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .tile-apple-music .image-wrapper {
+    width: 413px;
+    height: 287px
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .tile-apple-music .image-wrapper {
+    width: 100%
+  }
+}
+
+.tile-apple-music .music-image {
+  width: 554px;
+  height: 384px;
+  background-size: 554px 384px;
+  background-repeat: no-repeat;
+  background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/music-tile/apple_music__dkmumj5arv2a_large.jpg");
+  position: relative;
+  left: 50%;
+  margin-left: -277px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+  .tile-apple-music .music-image {
+    background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/music-tile/apple_music__dkmumj5arv2a_large_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .tile-apple-music .music-image {
+    width: 295px;
+    height: 204px;
+    background-size: 295px 204px;
+    background-repeat: no-repeat;
+    background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/music-tile/apple_music__dkmumj5arv2a_medium.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .tile-apple-music .music-image {
+    background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/music-tile/apple_music__dkmumj5arv2a_medium_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .tile-apple-music .music-image {
+    width: 413px;
+    height: 287px;
+    background-size: 413px 287px;
+    background-repeat: no-repeat;
+    background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/music-tile/apple_music__dkmumj5arv2a_small.jpg")
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .tile-apple-music .music-image {
+    background-image: url("/euro/iphone/home/i/screens_alt/images/overview/more-iphone/music-tile/apple_music__dkmumj5arv2a_small_2x.jpg")
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .tile-apple-music .music-image {
+    left: 50%;
+    margin-left: -147.5px
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .tile-apple-music .music-image {
+    left: 50%;
+    margin-left: -206.5px
+  }
+}
+
+/* END MUSIC */

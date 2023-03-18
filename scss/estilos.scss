@@ -1,0 +1,634 @@
+/*Fuentes*/
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,500&display=swap');
+
+  @font-face {
+    font-family: "poppins", sans-serif;
+    src: url("./fonts/Poppins");
+  }
+  
+  
+  
+  /*Selector universal (recetea todo)*/
+*{
+ margin: 5px;
+ padding: 5px;
+background-color: gray;
+
+}
+
+h1{
+    margin-left: 20px;
+    font-family:Cambria,cochin, Georgia, Times, 'Times New Roman',serif;
+    font-size: 2 rem;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+  }
+
+
+h3{
+     margin-left: 20px;
+    font-family:Cambria,cochin, Georgia, Times, 'Times New Roman',serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+   
+}
+
+
+#border-header{
+    border: 5px solid black;
+    color: black;
+}
+
+#stylo-footer{
+ background-color: black;
+ width: 100%;
+ height: 500px;
+ border: 5px solid white;
+}
+
+#stylo-footer p{
+    color: green;
+    text-align: justify;
+}
+
+#nosotros{
+    width: 100%;
+    background-color: hotpink;
+    background-size: contain;
+  
+}
+
+.box-modeling{
+    border: 5px solid black;
+    ;
+    pading: 20px 30px 40px 30px;
+    margin: 20px auto;
+
+
+}
+
+
+.links-style{
+    color: black;
+    background-color: whitesmoke; 
+   font-family:Cambria,cochin, Georgia, Times, 'Times New Roman',serif; font-family: ;
+}
+a:hover.links-style{
+    color: black;
+    background-color: black;
+    padding: 10px;
+    margin: 50px;
+    border: 3px solid white;
+    font-family: impact;
+
+}
+
+.logo-img{
+    width: 30%;
+
+}
+
+.foto-iphone{
+width: 10%;
+}
+
+/*Comentario css
+Flex-box*/
+
+.flex-conteiner{
+border:1px solid black;
+background-color: #ccc;
+padding: 10px;
+margin: 10px 20px;
+/*Propiedades de la caja*/
+/*Activaos flexbox*/
+display: flex;
+/*Definimos cual es el eje princial, si es una fila(row) o es una columna (column)*/
+flex-direction: row;
+/*Defino el desborde o salto de linea*/
+flex-wrap: wrap;
+/*Alineamos los elementos en el eje principal*/
+justify-content: flex-start;
+/*Alineamos los elementos en el eje secundario*/
+align-items: flex-start;
+/*espacio entre lineas*/
+/*align-content: space-evenly;*/
+
+}
+
+.caja{
+/*box modeling*/
+
+width: 120px;
+height: 120px;
+border: 1px solid darkred;
+margin: 5px;
+
+/*tipografias*/
+color: black;
+font-weight: bold;
+text-align: center;
+font-family:  "poppins", sans-serif; 
+}
+
+/*Propiedades de los flex-items*/
+
+ .c1{
+    background-color: lightblue;
+    /*defino el orden de aparicion*/
+    order: 3;
+}
+.c2{
+    background-color: lightcoral;
+    order: 1;
+    /*Derecho a crecer*/
+    flex-grow: 5;
+}    
+.c3{
+    background-color: hotpink;
+    order: 2;
+}
+
+/*CSS GRIDS Practica*/
+.grid-container{
+    /*box-modeling*/
+    width: 90%;
+    max-width: 1000px;
+    border: 10px solid black;
+    margin: auto;
+    height: 1000px
+
+    /*tipohgrafia*/
+    font-size: 50px;
+    text-align: center;
+
+    /*Activar grids*/
+    display: grid;
+    /*Definimios la cantiadad de columnas y su ancho /with)*/
+    grid-template-columns: 100px 200px 300px
+    /*Definimos la cantidad de filas y su  alto (height)*/
+    grid-template-rows: 100px 200px 200px 100px;
+    /*Gutters o huecos entre columnas*/
+    colum-gap: 10px;
+    /*Gutters o huecos entre filas*/
+    row-gap:10px;
+    /*Eje horizontal*/
+    justify-items: star;
+    /*Eje vertical*/
+    /*align-items: center;
+    */
+    /*Muevo todos los elementos en el eje horizontal
+    justify-content: center;*/
+    /*Muevo todo los elementos del eje vertical
+    align-content: end;*/
+}
+/*divs que estan directamente dentro del grid container*/
+.grid-container > div{
+    padding: 20px;
+    color: #fff;
+    background-color: black;
+}
+/*Grid Area*/
+#grilla {
+    /*activamos grid*/
+    display: grid;
+    /*Grid areas*/
+    grid-template-areas:
+   "nav   header     header"
+   "nav   productos  publicidad"
+   "nav   servicios  publicidad"
+   "nav   footer     footer"  
+;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 100px 150px 1fr 75px;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+/*Asignamos las areas*/
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    grid-area: header;
+    background: lightseagreen;
+}
+#productos {
+    grid-area: productos;
+    background: lightcoral;
+}
+
+#servicios {
+    grid-area: servicios;
+    background: pink;
+}
+
+#navgrid {
+    grid-area: nav;
+    background: crimson;
+}
+
+aside {
+    grid-area: publicidad;
+    background: lightblue;
+}
+
+footer {
+    grid-area: footer;
+    background: lightcoral;
+}
+/*responsive*/
+/*por defecto*/
+  main {
+        background-color: black;
+    }
+
+
+
+/*Navbar con flexbox*/
+nav {
+    margin-top: 10px;
+    display: flex;
+    justifly-content: space-around;
+    align-items: center;
+}
+
+a {
+    font-family:Cambria,cochin, Georgia, Times, 'Times New Roman',serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+/*PSEUDOCLASES*/
+a:hover { /*(en cuanto se posa el elemento)*/
+    background: lightcoral;
+    border-radius: 5px;
+    padding: 4px;
+    color: white;
+}
+
+a:active { /*(si hago click)*/
+    background: blueviolet;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 30px;
+}
+
+a:link {
+    color:red;
+}
+
+a:visited {
+    color:blue; 
+}
+
+/*First and last child*/
+.grupo{
+    width: 500px;
+    margin: 20px auto;
+     background-color: whitesmoke;    padding: 10px;
+    font-size:20px;
+
+}
+.parrafos p:first-child{
+background: blueviolet;
+color:white;
+}
+
+.parrafos p:first-child{
+background: greenyellow;
+color:white;
+}
+
+.parrafos p:last-child{
+background: pink ;
+color:white;
+}
+
+/*first and last type*/
+
+.elementos p:first-of-type{
+    background-color: deeppink;
+    color: white;
+}
+
+.elementos div:first-of-type{
+    background-color:  darkred;
+    color: white;
+}
+
+.elementos div:last-of-type{
+    background-color: blue;
+    color: white;
+}
+.elementos p:last-of-type{
+    background-color: deeppink;
+    color: white;
+}
+
+/*th-child and nth-last-child*/
+/*.lista :nth-last-child(3){
+background: royalblue;
+color: white;
+}*/
+
+.lista :nth-child(even ){
+    background: lightcoral;
+}
+
+/*BEM*/
+.contenedor{
+    max-width: 500px;
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.tarjeta{
+    width: 400px;
+    border: 5px solid black;
+    text-align: center;
+
+}
+
+
+.tarejta__miniatura{
+    height: 200px;
+    border: 5px solid black;
+    text-align: center;
+
+}
+
+.tarjeta__imagen{
+    padding-top: 20px;
+    height: 20%;
+}
+
+.tarjeta__textos{
+    font-family: 'Lucida sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Genova, Verdana, sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color:black;
+}
+
+.tarjeta__titulo {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.tarjeta__titulo--negrita{
+    font-weight: bold;
+
+}
+
+.tarjeta_enlace{
+    color: hotpink;
+    padding: 10px auto;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.tarjeta_parrafo{
+    max-width: 10%;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    
+}
+
+.boton {
+    font-size: 14px;
+    padding: 8px 35px;
+    background: lightcoral;
+    border: 25px;
+    text-decoration: none;
+    color: white;
+
+}
+/*Modificador*/
+.boton--alternativo{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px black;
+
+}
+
+/*bem afterclass*/
+/*defino los estilos de mi bloqyes*/
+.promociones{
+    width: 500px;
+    border: 1px solid black;
+    text-align: center;
+}
+/*defino los estilos de mi primer elemento de bloque promociones*/
+.promociones__imagenes{
+    width: 70%;
+
+}
+
+.promociones__titulo{
+    font-size: 35px;
+    font-weight: 500px;
+    font-family:Cambria,cochin, Georgia, Times, 'Times New Roman',serif;
+
+}
+
+.promociones__titulo--alternativo{
+font-size: 40px;
+color: blue;
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.card {
+    width: 30%;
+
+}
+
+.card2{
+    width: 10%;
+    height: 20%;
+}
+
+.bi-instagram{
+    font-size: 30px;
+    color-scheme: ;
+}
+
+.bi-envelope-paper-heart{
+    font-size: 30px;
+    color: black;
+}
+
+
+/*Grid Areas, responsive*/
+ 
+/*boostrap responsive*/
+
+
+/*@media screen and (min-width: 992px){
+.navbar-brand {
+    display: none;
+}*/
+
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 479px){
+   #grilla {
+    height: 500px;
+    display: grid;
+    grid-template-areas: 
+    "nav"
+    "header"
+    "productos"
+    "servicios"
+    "publicidad"
+    "footer"
+;
+grid-template-columns: 100%;
+grid-template-rows: repeat(6,1fr);
+   }
+
+    }
+
+@media screen and (min-width: 480px) and (max-width: 700px){
+main {
+    background-color: black;
+}
+h3 {
+      font-family:Cambria,cochin, Georgia, Times, 'Times New Roman',serif;
+      font-size: 80px;
+      font-weight:lighter;
+      color: blue;
+      text-align: center;
+}
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 1200px){
+    main {
+        background-color: whitesmoke;
+    }
+}
+<!-- grid container nosoros -->
+ 
+
+   #grilla-nosotros {
+    /*activamos grid*/
+    display: grid;
+    /*Grid areas*/
+    grid-template-areas:
+   "nav   header     header"
+   "nav   ofertas  publicidad"
+   "nav   servicios  envios"
+   "nav   footer     footer"  
+;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 100px 150px 1fr 75px;
+}
+
+
+
+#uno {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    grid-area: header;
+    background: lightseagreen;
+}
+
+#dos {
+grid-area: ofertas;
+ background: navajowhite;
+}
+
+#tres {
+grid-area: servicios;
+ background: lightcoral;
+}
+
+#cuatro {
+grid-area: footer;
+ background: lightgrey;
+}
+
+/*RESPONSIVE NOSOTROS_ MEDIA QUERIES*/
+
+@media screen and (max-width: 479px){
+   #grilla-nosotros{
+    height: 500px;
+    display: grid;
+    grid-template-areas: 
+    "nav"
+    "header"
+    "productos"
+    "servicios"
+    "publicidad"
+    "footer"
+;
+grid-template-columns: 100%;
+grid-template-rows: repeat(6,1fr);
+   }
+
+    }
+
+@media screen and (min-width: 480px) and (max-width: 700px){
+main {
+    background-color: black;
+    
+}
+h3 {
+      font-family:Cambria,cochin, Georgia, Times, 'Times New Roman',serif;
+      font-size: 80px;
+      font-weight:lighter;
+      color: blue;
+      text-align: center;
+}
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 1200px){
+    main {
+        background-color: whitesmoke;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

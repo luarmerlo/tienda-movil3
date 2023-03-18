@@ -1,0 +1,159 @@
+/*------------------------------------*\
+   LOCAL SCREENS
+\*------------------------------------*/
+
+.tile-gift-card.full-width-tile-wrapper .tile-headline-image {
+    width: 213px;
+    height: 40px;
+    background-size: 213px 40px;
+    background-repeat: no-repeat;
+    background-image: url("/euro/iphone/home/i/generic/images/overview/gift_card/gift_card_logo__drd2q539dq0y_large.png");
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+    .tile-gift-card.full-width-tile-wrapper .tile-headline-image {
+        background-image: url("/euro/iphone/home/i/generic/images/overview/gift_card/gift_card_logo__drd2q539dq0y_large_2x.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .tile-gift-card.full-width-tile-wrapper .tile-headline-image {
+        width: 139px;
+        height: 27px;
+        background-size: 139px 27px;
+        background-repeat: no-repeat;
+        background-image: url("/euro/iphone/home/i/generic/images/overview/gift_card/gift_card_logo__drd2q539dq0y_medium.png")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .tile-gift-card.full-width-tile-wrapper .tile-headline-image {
+        background-image: url("/euro/iphone/home/i/generic/images/overview/gift_card/gift_card_logo__drd2q539dq0y_medium_2x.png")
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .tile-gift-card.full-width-tile-wrapper .tile-headline-image {
+        width: 136px;
+        height: 25px;
+        background-size: 136px 25px;
+        background-repeat: no-repeat;
+        background-image: url("/euro/iphone/home/i/generic/images/overview/gift_card/gift_card_logo__drd2q539dq0y_small.png")
+    }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+    .tile-gift-card.full-width-tile-wrapper .tile-headline-image {
+        background-image: url("/euro/iphone/home/i/generic/images/overview/gift_card/gift_card_logo__drd2q539dq0y_small_2x.png")
+    }
+}
+
+
+/*------------------------------------*\
+   END LOCAL SCREENS
+\*------------------------------------*/ 
+
+
+
+
+/*------------------------------------*\
+   LOCAL FIXES
+\*------------------------------------*/
+
+
+
+.tile-gift-card.full-width-tile-wrapper .tile-copy {
+    margin-top:14px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .tile-gift-card.full-width-tile-wrapper .tile-copy {
+        margin-top:13px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .tile-gift-card.full-width-tile-wrapper .tile-copy {
+        margin-top: 21px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .tile-gift-card.full-width-tile-wrapper .tile-cta {
+        margin-left:8px;
+    }
+}
+
+
+@media only screen and (max-width: 1068px) {
+    .tile-gift-card.full-width-tile-wrapper .image-giftcard {
+        left: 56%;
+        margin-left: -274.5px;
+        position: relative;
+        margin-top: 11px;
+        margin-bottom:65px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .tile-gift-card.full-width-tile-wrapper .image-giftcard {
+        left: 50%;
+        margin-left: -347px;
+        position: relative;
+        margin-top: 39px;
+        margin-bottom:56px;
+    }
+}
+
+html.text-zoom .tile-gift-card.full-width-tile-wrapper .image-giftcard {
+    margin-left:0;
+}
+
+
+.tile-gift-card.full-width-tile-wrapper .banner-container {
+    background-color: #f9f9f9;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+
+.tile-gift-card.full-width-tile-wrapper .flex-copy-wrapper {
+	padding-top: 60px;
+	padding-left: 7.10144%;
+	box-sizing: border-box;
+	align-items: center;
+	display: flex;
+	min-width: 565px;
+	z-index: 1;
+}
+
+@media only screen and (max-width: 1068px) {
+    .tile-gift-card.full-width-tile-wrapper .flex-copy-wrapper {
+        padding-top:65px;
+        padding-left: 0;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .tile-gift-card.full-width-tile-wrapper .flex-copy-wrapper {
+        padding-top:45px;
+        min-width: 300px;
+        
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .tile-gift-card.full-width-tile-wrapper .banner-container {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+/*------------------------------------*\
+   END LOCAL FIXES
+\*------------------------------------*/ 
