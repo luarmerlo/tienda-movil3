@@ -1,247 +1,144 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./recursos/logo/dispositivos.png" type="image/x-icon">
-       <!--HOJA DE ESTILOS CSS-->
-    <link rel="stylesheet" href="./css/estilos.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/estilos.css">
     <!--bootstrap via CDN-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-   <title>Tienda movil</title>
+	<title>tienda movil</title>
 </head>
-    <!--fonts-->
-
 <body>
-<h1></h1>
 
-<nav >
-      <a href="../index.html">
-     <img class="logo-img" src="../recursos/logo/dispositivos.png" alt="logo-tiendamovil">
-      <a/>
-      <a href="./index.html">Inicio</a>
-      <a href="./pages/contacto.html">Contacto<a/>
-      <a href="./pages/nosotros.html">nosotros</a>
-      <a href="./pages/productos.html">producto</a>
-      <a href="./pages/promociones.html">promociones</a>
-   <a href="./info.html">info</a>
-</nav>
-
-<img src="/recursos/img/app-iph.jpg" alt="iphone">
-
-
-<!--Bootstrap-->
-<div class="container-fluid border border-primary">
-    <h2 class="h6">Bootstrap</h2>
-</div>
-<h3>Bootstrap Grid</h3>
-<!--Grilla de bootstrap-->
-<div class="container">
-    <div class="row">
-        <div class="col bg-primary">
-           <img src="../recursos/img/">
-        </div>
-            <div class="col bg-primary">
-            Columnna 1 
-        </div>
-            <div class="col bg-primary">
-            Columnna 1 
-        </div>
-            <div class="col bg-primary">
-            Columnna 1 
-        </div>
-            <div class="col bg-primary">
-            Columnna 1 
-        </div>
-            <div class="col bg-primary">
-            Columnna 1 
-        </div>
-            <div class="col bg-primary">
-            Columnna 1 
-        </div>
-            <div class="col bg-primary">
-            Columnna 1 
-        </div>
-         <div class="col bg-primary">
-            Columnna 1 
-        </div>
-         <div class="col bg-primary">
-            Columnna 1 
-        </div>
-         <div class="col bg-primary">
-            Columnna 1 
-        </div>
-         <div class="col bg-primary">
-            Columnna 1 
-        </div>
-    </div>
-
-</div>
-</div>
-<div class="row">
-     <div class="col bg-primary">
-            Columnna 1 
-        </div>
-</div>
-<h3>Grid responsive</h3>
-<!--Grid responsive-->
+	<div class="container-fluid bg-primary">
+		<div class="container bg-primary">
+			<nav class="navbar navbar-expand-lg navbar-dark ">
+				<div class="container-fluid">
+				  <a class="navbar-brand" href="#">Tienda Movil
+				  </a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+				  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="./pages/contacto.html">Contactos</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="./pages/productos.html">Productos</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+					  </li>
+					</ul>
+				  </div>
+				</div>
+			  </nav>
+			</div>
+	</div>
+	
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img class="foto-iphone" src="./imagenes/android.jpg" class="d-block w-100" alt="img-nosotros">
+			  </div>
+			  <div class="carousel-item">
+				<img class="foto-iphone" src="./imagenes/estadio.jpg" class="d-block w-100" alt="img-iphone">
+			  </div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div>
+	<h1>Conoce las mejores marcas de moviles de españa</h1>
 
 <div class="container">
-    <div class="row">
-     <div class="lead col-sm-12 col-md-6 col-lg-4 bg-info">
-  Estas cuatro características son:
-Movilidad. La característica más evidente de un dispositivo móvil es, precisamente, que es móvil. ...
-Reducido tamaño. ...
-Capacidad de comunicación inalámbrica. ...
-Capacidad de interacción con las personas.
-    </div>
-   <div class=" lead col-sm-12 col-md-3 col-lg-4 bg-primary">
-Estas cuatro características son:
-Movilidad. La característica más evidente de un dispositivo móvil es, precisamente, que es móvil. ...
-Reducido tamaño. ...
-Capacidad de comunicación inalámbrica. ...
-Capacidad de interacción con las personas.
-    </div>
-   <div class=" lead col-sm-12 col-md-3 col-lg-4 bg-danger">
-   Estas cuatro características son:
-Movilidad. La característica más evidente de un dispositivo móvil es, precisamente, que es móvil. ...
-Reducido tamaño. ...
-Capacidad de comunicación inalámbrica. ...
-Capacidad de interacción con las personas.
-    </div>
-</div>
+	<div class="row justify-content-center">
+		<div class="col-8">
+			<ul class="list-group">
+				<li class="list-group-item">An item</li>
+				<li class="list-group-item">A second item</li>
+				<li class="list-group-item">A third item</li>
+				<li class="list-group-item">A fourth item</li>
+				<li class="list-group-item">And a fifth one</li>
+			  </ul>
+		</div>
+	</div>
 
-<!-- tablas bootstrap-->
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
-<!-- dropdown-->
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Dropdown button
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
-  </ul>
-</div>
+	<div class="row mt-3">
+		<div class="foto-iphone">
+			<div class="foto-iphone" style="display: inline-block; width: 18rem;">
+			<img src="./imagenes/bosque.jpg" class="card-img-top" alt="card-img">
+			<div class="foto-iphone">
+			  <h5 class="card-title">iphone pro max</h5>
+			  <p class="card-text">Platform - App Store<br>
+				Region - US
+				Delivery - Instant Digital doswnoload
+				AvailabilityIn Stock</p>
+			  <a href="#" class="btn btn-outline-info">buy now</a>
+			</div>
+			</div>
+			<div class="foto-iphone">
+				<div class="foto-iphone" style="display: inline-block; width: 18rem;">
+				<img src="./imagenes/bosque.jpg" class="card-img-top" alt="card-img">
+				<div class="foto-iphone">
+				  <h5 class="card-title">iphone pro max</h5>
+				  <p class="card-text">Platform - App Store<br>
+					Region - US
+					Delivery - Instant Digital doswnoload
+					AvailabilityIn Stock</p>
+				  <a href="#" class="btn btn-outline-info">buy now</a>
+				</div>
+				</div>
+				<div class="foto-iphone">
+					<div class="foto-iphone" style="display: inline-block; width: 18rem;">
+					<img src="./imagenes/bosque.jpg" class="card-img-top" alt="card-img">
+					<div class="foto-iphone">
+					  <h5 class="card-title">iphone pro max</h5>
+					  <p class="card-text">Platform - App Store<br>
+						Region - US
+						Delivery - Instant Digital doswnoload
+						AvailabilityIn Stock</p>
+					  <a href="#" class="btn btn-outline-info">buy now</a>
+					</div>
+				</div>
+		</div>
 
+		<div class="row mt-5">
+						<h2>iphone</h2>
+						<p>akshduashfdkasjhf</p>
+						<p>jfkbnshkdfhbsk</p>
+		</div>
+		<div class="col-3">
+			<img src="./imagenes/movil3.jpg" class="img-fluid">
+		</div>
+			
+	
+
+	
+  
 
 
-    
+	
 
-<!--Grid Areas-->
-
-<div id="grilla">
-    <header id="banner"class="border">header</header>
-    <section id="productos" class="border">Productos </section>
-      <section id="servicios" class="border">Servicios</section>
-      <nav id="navgrid">Navegacion</nav>
-      <aside class="border">aside</aside>
-      <footer class="border">Pie de pagina</footer>
-</div>
-
-
-    
-<header>
-      <img class="foto-iphone" src="./recursos/img/movil.jpg" alt =" foto-bici-montana"> 
-       <img class="foto-iphone" src="./recursos/img/movil2.jpg" alt="foto-movil-apple">
-</header>
-
-
-<main>
-    <h1>¡Tienda Movil</h1> 
-    <h3>Ofertas </h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ImmZ2LmDW7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <div class="box-modeling">
-    <h3>Moviles disponibles</h3>
-    <ol>
-  <li>iphone 8</li>
-  <li>iphone 9</li>
-  <li>iphone 10</li>
-  <li>iphone 11</li>
-  <li>iphone 12</li>
-  <li>iphone 13</li>
-  <li>iphone 14</li>
-</ol>
-
-<h3>Servicios</h3>
-
-<ul>
-    <li>Mantenimiento</li>
-    <li>desarrollo</li>
-    <li>Servidores</li>
-    <li>Diseño</li>
-    <li>Hostings</li>
-</ul>
-</div>
-<div class="box-modeling">
-     <h3>Selecciona el iphone que mas te guste y llevatelo a mitad de precio!</h3>
-   <form action="procesar.php" method="post">
-
-
-</div>
-<h3>Selecciona una de nustras notebooks y llevala al 50%!!</h3><br>
-
-<select name="">
-    <option>Notebook 2010</option>
-    <option>Notebook 2013</option>
-    <option>Notebook 2016</option>
-    <option>Notebook 2019</option>
-    <option>Notebook 2020</option>
-</select>
-
-<button type="submit">Enviar</button>
-<button type="reset">Borrar seleccion</button><br>
-<h3>Dejanos tu comentario para sumar puntos en tu proxima compra!</h3>
-<textarea name="mensaje" cols="30" rows="10"></textarea>
-</main>
-
-
-
-
-
-
-
-
-
-<footer id="#stylo-footer">
-<p>Tienda Movil 2023</p>
-</footer>
-      
-<script src="./libro/bootstrap/js/bootstrap.bundle.min.js"></script>
+	
+<footer>Desarrollado por Luar</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

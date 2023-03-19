@@ -87,13 +87,23 @@ a:hover.links-style{
 
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    background: url(nosotros.jpg)
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
 .logo-img{
     width: 30%;
 
 }
 
 .foto-iphone{
-width: 10%;
+width: 65%;
+display: inline;
 }
 
 /*Comentario css
