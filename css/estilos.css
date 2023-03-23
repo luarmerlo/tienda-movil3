@@ -348,6 +348,7 @@ footer {
 /*por defecto*/
 main {
   background-color: black;
+  align-items: baseline;
 }
 
 /*Navbar con flexbox*/
