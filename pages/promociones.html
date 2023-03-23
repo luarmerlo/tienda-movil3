@@ -5,68 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="./libro/css/bootstrap.min.css">
-    <!--ESTILOS CSS-->
+
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Tienda Movil-Promociones</title>
 </head>
 <body>
 
-    <!--Navbar con flexbox-->
-<nav>
-       <a href="../index.html">
-       <img class="logo-img" src="./recursos/logo/dispositivos.png" alt="logo-tiendamovil">
-       <a/>
-       <a href="./index.html">inicio</a>
-       <a href="./pages/contacto.html">Contacto<a/>
-       <a href="./pages/nosotros.html">nosotros</a>
-       <a href="./pages/productos.html">Productos</a>
-       <a href="./info.html">info</a>
-</nav>
 
-<!--PSEUDOCLASES-->
-<!--First and last child-->
-
-<div class="grupo">
-<div class="parrafos">
-<p></p>
-<p>segundo parrafo</p>
-<p>tercer parrafo</p>
-</div>
-</div>
-
+	<ul class="navbar navbar-expand-lg bg-body-tertiary">
+		<li class="navbar navbar-expand-lg bg-body-tertiary">
+		  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+		</li>
+		<li class="navbar navbar-expand-lg bg-body-tertiary">
+		  <a class="nav-link" href="./contacto.html">Contacto</a>
+		</li>
+		<li class="navbar navbar-expand-lg bg-body-tertiary">
+		  <a class="nav-link" href="./info.html">Info</a>
+		</li>
+		<li class="navbar navbar-expand-lg bg-body-tertiary">
+			<a class="nav-link" href="./nosotros.html">Nosotros</a>
+		  </li>
+		
+		  <li class="nav-item">
+			<a class="nav-link" href="./promociones.html">Promociones</a>
+		  </li>
+		
+	  </ul>
+	
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+	<div class="carousel-indicators">
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	</div>
+	
 <!--first and last type-->
 <div class="grupo">
     <div class="c3">
-        <h1><p> Material de primera.
-            En primera fila.
-            Películas premiadas por la crítica. Series increíbles. Tu música favorita masterizada en audio espacial. La colección más épica de videojuegos. Y el mayor catálogo de contenido de fitness en 4K Ultra HD. El mejor entretenimiento está aquí. Solo en Apple.</p>
+        <h1>  
+        <img src="../imagenes/oferta1.jpg">
+            <p> Inicio promoción: 01/03/2023<br>
+                Fin de promoción: 31/03/2023
+            </p>
+         </h1>
         </h1>
         </div>
         <div class="c3">
-        <h2>
-            Agrupa hasta cinco servicios de Apple y llévate más por menos.
-            
-            Más información
-        </h2>
+        <h1>
+            <img src="../imagenes/oferta2.jpg">
+            <p class=""> Inicio promoción: 01/03/2023<br>
+                Fin de promoción: 31/03/2023
+            </p>
+        </h1>
+        <h1>    
+            <img src="../imagenes/oferta3.jpg">
+            <p class=""> Inicio promoción: 01/03/2023<br>
+                Fin de promoción: 31/03/2023
+            </p>
+         </h1>
+         <h1>    
+            <img src="../imagenes/oferta4.jpg">
+            <p class=""> Inicio promoción: 01/03/2023<br>
+                Fin de promoción: 31/03/2023
+            </p>
+         </h1>
+      
         </div>
         
-</div>
 
-<!--nth-child and nth-last-child-->
-<div class="grupo">
-    <div class="lista">
-        <li>Elemento 1</li>
-         <li>Elemento 2</li>
-          <li>Elemento 3</li>
-           <li>Elemento 4</li>
-            <li>Elemento 5</li>
-             <li>Elemento 6</li>
-              <li>Elemento 7</li>
-               <li>Elemento 8</li>
-                <li>Elemento 9</li>
-                 <li>Elemento 10</li>
-    </div>
-</div>
 
 
 
@@ -76,12 +82,21 @@
 
 
 <div class="box-modeling">
-    <h5>contenido</h5>
+    <h5> <p>
+        Promociones Phone House<br>
+        Tenemos una gran noticia para ti y es que, en Phone House ¡Te queremos dar las mejores ofertas que hayas podido ver! Todo lo mejor para ti, adaptándonos a tus necesidades con nuestra sección de ofertas especiales, dónde podrás ver una gran variedad de productos en promoción.
+        </p></h5>
 </div>
 
 <div class="box-modeling">
-    <h5>contenido</h5>
+    <h5> <p>
+        Accede a la guía de servicios y a la información promocional
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        </p></h5>
 </div>
+
+
+  
 
 
 
@@ -91,4 +106,3 @@
 
 <script src="./libro/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
-</html>
