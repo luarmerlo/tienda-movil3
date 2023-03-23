@@ -4,6 +4,18 @@
   font-family: "poppins", sans-serif;
   src: url("./fonts/Poppins");
 }
+.navegacion {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: radial-gradient(black, white);
+}
+
+.carousel-inner {
+  width: 10%;
+  height: 10%;
+}
+
 /*Selector universal (recetea todo)*/
 * {
   box-sizing: border-box;
@@ -78,7 +90,9 @@
 
 .links-style {
   background: #fff;
+  font-weight: lighter;
   color: white;
+  text-decoration: none;
   background-color: whitesmoke;
   font-family: Cambria, cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -301,6 +315,7 @@ Flex-box*/
   font-size: 30px;
   grid-area: header;
   background: wheat;
+  display: inline;
 }
 
 #productos {
@@ -321,6 +336,7 @@ Flex-box*/
 aside {
   grid-area: publicidad;
   background: lightblue;
+  color: white;
 }
 
 footer {
@@ -339,6 +355,7 @@ nav {
   margin-top: 10px;
   display: flex;
   align-items: center;
+  display: inline;
 }
 
 p {

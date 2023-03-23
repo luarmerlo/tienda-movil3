@@ -6,7 +6,8 @@
   src: url("./fonts/Poppins");
 }
 
-
+@import "navbar";
+@import "fuentes";
 
 /*Selector universal (recetea todo)*/
 *{
@@ -112,7 +113,9 @@ border: 5px solid white;
 
 .links-style{
   background: #fff;
+  font-weight: lighter;
   color: white;
+  text-decoration: none;
   background-color: whitesmoke; 
   font-family:Cambria,cochin, Georgia, Times, 'Times New Roman',serif;
 }
@@ -338,8 +341,11 @@ grid-template-rows: 100px 150px 1fr 75px;
   align-items: center;
   font-size: 30px;
   grid-area: header;
-  background: wheat
+  background: wheat;
+  display: inline;
+
 }
+
 #productos {
   grid-area: productos;
   background: lightcoral;
@@ -358,6 +364,7 @@ grid-template-rows: 100px 150px 1fr 75px;
 aside {
   grid-area: publicidad;
   background: lightblue;
+  color: white;
 }
 
 footer {
@@ -377,6 +384,7 @@ nav {
   margin-top: 10px;
   display: flex;
   align-items: center;
+  display: inline;
 }
 
 p{
